@@ -19,7 +19,7 @@ int main(){
 		for(int i = 0; i < m; i++)
 			scanf("%d",&B[i]);
 		sort(A,A+n);
-		sort(A,A+m);
+		sort(B,B+m);
 		int cur = 0;
 		int cost = 0;
 		for(int i = 0; i < m; i++)
